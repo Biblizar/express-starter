@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  description: ''
+  version: 0.1.0
+  title: API Express Starter Kit
+  termsOfService: ''
+  contact:
+    email: ''
+paths:
+  /:
+    summary: Home Route
+    description: This endpoint is the main route for this api
+    get: 
+     response:
+      '200':
+        description: ok
+security: []
